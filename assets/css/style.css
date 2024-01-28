@@ -1,0 +1,137 @@
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    display: flex;
+}
+
+.contacts {
+    background-color: white;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    border-right: #E0E0E0 2px solid;
+}
+
+.contacts-perfil {
+    display: flex;
+    justify-content: space-around;
+    height: 50px;
+    border-bottom: #E0E0E0 2px solid;
+}
+
+.contacts-perfil img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+}
+
+.contacts-perfil-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.contacts-perfil-inner p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-left: 10px;
+    font-weight: bold;
+}
+
+.contacts-perfil-inner-status {
+    font-size: x-small;
+    color: #727271;
+}
+
+.contacts-perfil-icon {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #6c757d;
+}
+
+.contacts-perfil-icon i {
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.contacts-boton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 110px;
+    border-bottom: #E0E0E0 2px solid;    
+}
+
+.contacts-boton button {
+    width: 150px;
+    background-color: #A491D3;
+    color: white;
+    height: 40px;
+    border: 1px solid #A491D3;
+}
+
+.contacts-cajas {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10;
+    height: 70px;
+    border-bottom: #E0E0E0 2px solid;
+}
+
+.contacts-cajas img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;    
+}
+
+.contacts-cajas-img-div {
+    padding-left: 20px;    
+}
+
+.contacts-cajas p {
+    margin-bottom: 1px;
+    margin-top: 1px;
+    padding-left: 12px;   
+    font-weight: bold; 
+}
+
+.contacts-cajas-msg {
+    font-size: 14px;  
+}
+
+
+.principal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    flex-direction: column;
+    background-color: #F8F8F8;
+}
+
+.principal-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.principal-inner img {
+    width: 300px;
+}
+
+.principal-inner h1 {
+    margin-bottom: 5px;
+}
+
+.principal-inner p {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
